@@ -1,49 +1,8 @@
-# #!/usr/bin/env bash
 
-# # SL checkpoints
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_sl_ep60.vd
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_sl_ep60.vd
+mkdir -p /kaggle/working/visdial-rl/checkpoints
 
-# # SL-Delta checkpoints
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_sl_ep15_delta.vd
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_sl_ep15_delta.vd
+gdown --id 1ONO67T_fcSKF8PKSUDiuyqSzN0ux4WRX -O abot_sl_ep60.vd
+gdown --id 1JDEqHKVSL4-CZ4r9RgXjBRcfruQ1Jk3C -O qbot_sl_ep60.vd
 
-
-# # RL checkpoints
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_rl_ep10.vd
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_rl_ep20.vd
-
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_rl_ep10.vd
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_rl_ep20.vd
-
-# # RL-Delta checkpoints
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_rl_ep10_delta.vd
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_rl_ep20_delta.vd
-
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_rl_ep10_delta.vd
-# curl -o checkpoints/ https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_rl_ep20_delta.vd
-
-#!/usr/bin/env bash
-
-# Ensure the checkpoints directory exists
-mkdir -p checkpoints
-
-# SL checkpoints
-curl -o checkpoints/abot_sl_ep60.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_sl_ep60.vd
-curl -o checkpoints/qbot_sl_ep60.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_sl_ep60.vd
-
-# SL-Delta checkpoints
-curl -o checkpoints/abot_sl_ep15_delta.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_sl_ep15_delta.vd
-curl -o checkpoints/qbot_sl_ep15_delta.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_sl_ep15_delta.vd
-
-# RL checkpoints
-curl -o checkpoints/abot_rl_ep10.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_rl_ep10.vd
-curl -o checkpoints/abot_rl_ep20.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_rl_ep20.vd
-curl -o checkpoints/qbot_rl_ep10.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_rl_ep10.vd
-curl -o checkpoints/qbot_rl_ep20.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_rl_ep20.vd
-
-# RL-Delta checkpoints
-curl -o checkpoints/abot_rl_ep10_delta.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_rl_ep10_delta.vd
-curl -o checkpoints/abot_rl_ep20_delta.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/abot_rl_ep20_delta.vd
-curl -o checkpoints/qbot_rl_ep10_delta.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_rl_ep10_delta.vd
-curl -o checkpoints/qbot_rl_ep20_delta.vd https://s3.amazonaws.com/cvmlp/visdial-pytorch/models/qbot_rl_ep20_delta.vd
+gdown --id 15jcIynNT4S8OqdS6ZibuC7kXK3CMA4YJ -O abot_rl_ep20.vd
+gdown --id 16B6Cf93W7N8QDbnDbFkAvuvcAFlgxZQu -O qbot_rl_ep20.vd
