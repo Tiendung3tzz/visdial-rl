@@ -285,7 +285,7 @@ class Decoder(nn.Module):
         LENGTH_NORM = True
         maxLen = maxSeqLen + 1  # Extra <END> token
         # batchSize = initStates[0].size(1)
-        batchSize = 8
+        batchSize = 1
 
         startTokenArray = th.LongTensor(batchSize, 1).fill_(self.startToken)
         backVector = th.LongTensor(beamSize)
