@@ -1,0 +1,1497 @@
+{
+  "data": [
+    {
+      "dialog": [
+        {
+          "answer": "3",
+          "question": "how many sheep are there ? "
+        },
+        {
+          "answer": "white",
+          "question": "what color are sheep ? "
+        },
+        {
+          "answer": "no",
+          "question": "are any of sheep laying down ? "
+        },
+        {
+          "answer": "no",
+          "question": "is grass tall ? "
+        },
+        {
+          "answer": "short",
+          "question": "how tall is grass ? "
+        },
+        {
+          "answer": "yes",
+          "question": "are sheep in field ? "
+        },
+        {
+          "answer": "yes",
+          "question": "can you see sky ? "
+        },
+        {
+          "answer": "no",
+          "question": "is it sunny ? "
+        },
+        {
+          "answer": "no",
+          "question": "is it raining ? "
+        },
+        {
+          "answer": "no",
+          "question": "can you see any buildings ? "
+        }
+      ],
+      "image_id": 397639,
+      "caption": "a herd of sheep standing on top of a lush green field"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "yes",
+          "question": "is man wearing wetsuit ? "
+        },
+        {
+          "answer": "4 of them are black , 1 is grey , other is black",
+          "question": "what color is wetsuit ? "
+        },
+        {
+          "answer": "1 other surfer",
+          "question": "is there anyone else in water ? "
+        },
+        {
+          "answer": "it looks like he is heading away from what i can tell",
+          "question": "is man standing on surfboard ? "
+        },
+        {
+          "answer": "all i think it 's green and white skis",
+          "question": "can you see color of his board ? "
+        },
+        {
+          "answer": "it appears to be nice day",
+          "question": "does it appear to be nice day ? "
+        },
+        {
+          "answer": "no , not really",
+          "question": "are waves big ? "
+        },
+        {
+          "answer": "silver beach is visible",
+          "question": "can you see beach ? "
+        },
+        {
+          "answer": "ca n't see any",
+          "question": "are there any boats on water ? "
+        },
+        {
+          "answer": "yes , sand",
+          "question": "can you see beach ? "
+        }
+      ],
+      "image_id": 145750,
+      "caption": "a man riding a wave on top of a surfboard"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "it looks like sausage",
+          "question": "can you see toppings on pizza ? "
+        },
+        {
+          "answer": "i think cheese , i think it 's chicken",
+          "question": "can you tell what kind of pizza it is ? "
+        },
+        {
+          "answer": "0",
+          "question": "are there any people in picture ? "
+        },
+        {
+          "answer": "nope only 1 slice",
+          "question": "has pizza been bitten into ? "
+        },
+        {
+          "answer": "i can only see cheese",
+          "question": "what kind of toppings are on pizza ? "
+        },
+        {
+          "answer": "yes , looks like ham",
+          "question": "can you tell what kind of pizza it is ? "
+        },
+        {
+          "answer": "no",
+          "question": "does it have cheese on it ? "
+        },
+        {
+          "answer": "clear pan is cut in half",
+          "question": "is it cut in half ? "
+        },
+        {
+          "answer": "no",
+          "question": "are there any utensils nearby ? "
+        },
+        {
+          "answer": "not sure",
+          "question": "does it look like restaurant or home ? "
+        }
+      ],
+      "image_id": 121632,
+      "caption": "a pizza sitting on top of a white plate"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "large plane plane is white with red stripe going on it",
+          "question": "what color is plane ? "
+        },
+        {
+          "answer": "it 's mostly white",
+          "question": "what color is shuttle ? "
+        },
+        {
+          "answer": "no way to tell",
+          "question": "what time of day is it ? "
+        },
+        {
+          "answer": "i ca n't see sky",
+          "question": "have any clouds in sky ? "
+        },
+        {
+          "answer": "not really it 's older plane",
+          "question": "is this modern jet or big 1 ? "
+        },
+        {
+          "answer": "1 person is driving away from plane",
+          "question": "can you see any people on plane ? "
+        },
+        {
+          "answer": "they are all white",
+          "question": "what color is plane ? "
+        },
+        {
+          "answer": "there is no sky , sky is not visible",
+          "question": "what is weather like ? "
+        },
+        {
+          "answer": "i can see plane , part of hanger , and what looks like plane plane in plane",
+          "question": "can you see anything else besides plane ? "
+        },
+        {
+          "answer": "it 's too far away to make it out",
+          "question": "does plane have any writing on it ? "
+        }
+      ],
+      "image_id": 126876,
+      "caption": "an airplane flying in the sky above a mountain"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "there is no head",
+          "question": "what color is girl 's hair ? "
+        },
+        {
+          "answer": "nope",
+          "question": "are there any other people in picture ? "
+        },
+        {
+          "answer": "probably , but it 's hard to tell",
+          "question": "is this in bedroom ? "
+        },
+        {
+          "answer": "i can only see part of it",
+          "question": "can you see bed ? "
+        },
+        {
+          "answer": "not really , too close up to tell",
+          "question": "can you see walls in room ? "
+        },
+        {
+          "answer": "clear 1 that i can see",
+          "question": "how many stuffed animals are there ? "
+        },
+        {
+          "answer": "there is something on table but i ca n't tell what it is",
+          "question": "is there anything else on table ? "
+        },
+        {
+          "answer": "i ca n't tell time of day",
+          "question": "can you tell what time of day it is ? "
+        },
+        {
+          "answer": "it is hard to tell i do n't think so",
+          "question": "does bear look comfortable ? "
+        },
+        {
+          "answer": "brown",
+          "question": "what color is teddy bear ? "
+        }
+      ],
+      "image_id": 126877,
+      "caption": "a little girl sitting on a bed with a teddy bear"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "i see 1 car",
+          "question": "are there any other cars ? "
+        },
+        {
+          "answer": "i can see 4",
+          "question": "how many lanes does truck have ? "
+        },
+        {
+          "answer": "not that i can tell",
+          "question": "how many lanes is road ? "
+        },
+        {
+          "answer": "i ca n't tell i can only see back",
+          "question": "who is driving truck ? "
+        },
+        {
+          "answer": "looks like there is driver in front of bus",
+          "question": "can you see driver ? "
+        },
+        {
+          "answer": "i ca n't tell , it 's black and white picture",
+          "question": "how is weather ? "
+        },
+        {
+          "answer": "0 that i can see",
+          "question": "are there any street signs ? "
+        },
+        {
+          "answer": "yes",
+          "question": "what color is car ? "
+        },
+        {
+          "answer": "not sure",
+          "question": "is it sedan ? "
+        },
+        {
+          "answer": "0 that i can see",
+          "question": "does it have any writing on it ? "
+        }
+      ],
+      "image_id": 258395,
+      "caption": "a red fire truck driving down a street"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "yep",
+          "question": "is this color picture ? "
+        },
+        {
+          "answer": "they are all white",
+          "question": "what color are sheep ? "
+        },
+        {
+          "answer": "same color as far as i can tell",
+          "question": "roman sheep are white ? "
+        },
+        {
+          "answer": "it looks like three , but there are too many to count",
+          "question": "how many sheep do you see ? "
+        },
+        {
+          "answer": "mostly brown with black heads",
+          "question": "what color are other 2 sheep ? "
+        },
+        {
+          "answer": "not sure but it is bright out",
+          "question": "what time of day is it ? "
+        },
+        {
+          "answer": "nope",
+          "question": "do you see any trees ? "
+        },
+        {
+          "answer": "not that i can see",
+          "question": "any people in picture ? "
+        },
+        {
+          "answer": "not really , but it 's hard to tell",
+          "question": "can you tell what time of day it is ? "
+        },
+        {
+          "answer": "ca n't really tell",
+          "question": "can you tell what season it is ? "
+        }
+      ],
+      "image_id": 118638,
+      "caption": "a group of sheep standing in a field"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "mostly tall as 2 feet tall",
+          "question": "how big is clock ? "
+        },
+        {
+          "answer": "ca n't tell what time it is",
+          "question": "can you see time ? "
+        },
+        {
+          "answer": "daytime",
+          "question": "does clock have roman numerals ? "
+        },
+        {
+          "answer": "just 1 i can see",
+          "question": "about how many stories is clock ? "
+        },
+        {
+          "answer": "i don \u2019 t see any",
+          "question": "angry birds ? "
+        },
+        {
+          "answer": "not numbers",
+          "question": "are there numbers on clock tower ? "
+        },
+        {
+          "answer": "nope",
+          "question": "are numbers on clock roman numerals ? "
+        },
+        {
+          "answer": "looks like 2:25 pm",
+          "question": "what time is on clock ? "
+        },
+        {
+          "answer": "tail is UNK of so i can not see sky",
+          "question": "can you see sky ? "
+        },
+        {
+          "answer": "teddy UNK i think",
+          "question": "can you see what time it is ? "
+        }
+      ],
+      "image_id": 130465,
+      "caption": "a large clock tower with a clock on top"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "man",
+          "question": "is it man or woman ? "
+        },
+        {
+          "answer": "red and white",
+          "question": "what color is his uniform ? "
+        },
+        {
+          "answer": "no",
+          "question": "are there any other people ? "
+        },
+        {
+          "answer": "ca n't tell , it 's black and white photo",
+          "question": "what color is his uniform ? "
+        },
+        {
+          "answer": "yes",
+          "question": "is he holding bat ? "
+        },
+        {
+          "answer": "afternoon",
+          "question": "what time of day is it ? "
+        },
+        {
+          "answer": "yes",
+          "question": "is it sunny ? "
+        },
+        {
+          "answer": "i ca n't tell",
+          "question": "what time of day is it ? "
+        },
+        {
+          "answer": "yes",
+          "question": "is he wearing hat ? "
+        },
+        {
+          "answer": "yes",
+          "question": "is he wearing hat ? "
+        }
+      ],
+      "image_id": 474953,
+      "caption": "a baseball player swinging a bat at a ball"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "woman appears to be in his late twenties or early 30s",
+          "question": "how old is man ? "
+        },
+        {
+          "answer": "no , black and white",
+          "question": "is this color photo ? "
+        },
+        {
+          "answer": "no , it 's sunny",
+          "question": "is it raining ? "
+        },
+        {
+          "answer": "no",
+          "question": "is umbrella open ? "
+        },
+        {
+          "answer": "ca n't see any",
+          "question": "are there other people ? "
+        },
+        {
+          "answer": "ca n't see any",
+          "question": "are there other people ? "
+        },
+        {
+          "answer": "ca n't see his head , just his shadow",
+          "question": "is he wearing hat ? "
+        },
+        {
+          "answer": "i ca n't see his head at all",
+          "question": "is he wearing hat ? "
+        },
+        {
+          "answer": "no shirt black",
+          "question": "what color is his shirt ? "
+        },
+        {
+          "answer": "there is daylight but i ca n't see sky",
+          "question": "is it sunny ? "
+        }
+      ],
+      "image_id": 511341,
+      "caption": "a man in a suit and tie holding a umbrella"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "0 that i can see",
+          "question": "how many cars are on bus ? "
+        },
+        {
+          "answer": "yellow",
+          "question": "what color is bus ? "
+        },
+        {
+          "answer": "yes front of 1",
+          "question": "can you see any passengers ? "
+        },
+        {
+          "answer": "i really ca n't tell",
+          "question": "are there any passengers on bus ? "
+        },
+        {
+          "answer": "daytime",
+          "question": "what time of day is it ? "
+        },
+        {
+          "answer": "looks like afternoon",
+          "question": "can you tell what time of day it is ? "
+        },
+        {
+          "answer": "daytime",
+          "question": "can you tell what time of day it is ? "
+        },
+        {
+          "answer": "spring or summer i think",
+          "question": "can you tell what season it is ? "
+        },
+        {
+          "answer": "0",
+          "question": "are there any other vehicles ? "
+        },
+        {
+          "answer": "just 1",
+          "question": "how many people do you see ? "
+        }
+      ],
+      "image_id": 256906,
+      "caption": "a double decker bus is parked on the side of the road"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "no race",
+          "question": "what race is man ? "
+        },
+        {
+          "answer": "blue 1 looks like he is in his late teens",
+          "question": "how old does he look ? "
+        },
+        {
+          "answer": "i ca n't really tell he is too far away",
+          "question": "what is he wearing ? "
+        },
+        {
+          "answer": "maybe in distance , yes",
+          "question": "are there other people ? "
+        },
+        {
+          "answer": "yes from far",
+          "question": "do you see any buildings ? "
+        },
+        {
+          "answer": "3 yes pine trees",
+          "question": "do you see any trees ? "
+        },
+        {
+          "answer": "no people , close up and 1 in back",
+          "question": "how many ? "
+        },
+        {
+          "answer": "morning or dark brown",
+          "question": "what color is his hair ? "
+        },
+        {
+          "answer": "i ca n't tell , they are facing away from camera",
+          "question": "are they wearing helmets ? "
+        },
+        {
+          "answer": "fire sky ca n't see sky",
+          "question": "can you see sky ? "
+        }
+      ],
+      "image_id": 581357,
+      "caption": "a man riding a skateboard down a ramp"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "just hand of 1",
+          "question": "are there any people in image ? "
+        },
+        {
+          "answer": "yes",
+          "question": "it is in someone 's home ? "
+        },
+        {
+          "answer": "1 of each",
+          "question": "who is on plate ? "
+        },
+        {
+          "answer": "it is white",
+          "question": "what color is plate ? "
+        },
+        {
+          "answer": "UNK cheese and lettuce",
+          "question": "what is on sandwich ? "
+        },
+        {
+          "answer": "chicken breast i think",
+          "question": "can you tell what kind of sandwich it is ? "
+        },
+        {
+          "answer": "it appears so",
+          "question": "are they at restaurant ? "
+        },
+        {
+          "answer": "i do n't see any",
+          "question": "are there any drinks on table ? "
+        },
+        {
+          "answer": "not that i can see",
+          "question": "are there any drinks on table ? "
+        },
+        {
+          "answer": "there are no drinks",
+          "question": "are there any drinks ? "
+        }
+      ],
+      "image_id": 544565,
+      "caption": "a plate of food with a sandwich on it"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "late small portion of grass is visible",
+          "question": "do you see fence ? "
+        },
+        {
+          "answer": "yup",
+          "question": "can you see fence ? "
+        },
+        {
+          "answer": "maybe i just see branch of another giraffe",
+          "question": "any other animals ? "
+        },
+        {
+          "answer": "no grass",
+          "question": "can you see grass ? "
+        },
+        {
+          "answer": "looks black from what i can tell",
+          "question": "brown or black ? "
+        },
+        {
+          "answer": "0 visible",
+          "question": "what color is sky ? "
+        },
+        {
+          "answer": "helmet is surrounded by tree branch",
+          "question": "do you see any trees ? "
+        },
+        {
+          "answer": "helmet could be either UNK or something similar",
+          "question": "does it look like zoo ? "
+        },
+        {
+          "answer": "his mother is eating grass",
+          "question": "are they eating ? "
+        },
+        {
+          "answer": "no , just rocks and bird",
+          "question": "anything else you see in photo ? "
+        }
+      ],
+      "image_id": 439015,
+      "caption": "a zebra standing in the grass near a tree"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "only 1",
+          "question": "how many people are there ? "
+        },
+        {
+          "answer": "photo is too far away to tell they are too far away",
+          "question": "what is their gender ? "
+        },
+        {
+          "answer": "i ca n't tell",
+          "question": "does it look like it 's cold ? "
+        },
+        {
+          "answer": "hard to tell , but looks like man",
+          "question": "is it man or woman ? "
+        },
+        {
+          "answer": "not that i can see",
+          "question": "do they have on goggles ? "
+        },
+        {
+          "answer": "i ca n't tell",
+          "question": "does he have hat on ? "
+        },
+        {
+          "answer": "0 that i can see",
+          "question": "are there any trees around ? "
+        },
+        {
+          "answer": "it does n't look like it",
+          "question": "does he have goggles on ? "
+        },
+        {
+          "answer": "in distance there are trees",
+          "question": "do you see any trees ? "
+        },
+        {
+          "answer": "i ca n't see any",
+          "question": "do they have leaves on them ? "
+        }
+      ],
+      "image_id": 220764,
+      "caption": "a person on a snowboard in the snow"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "i ca n't tell , i can only see back of his head",
+          "question": "does he have helmet on ? "
+        },
+        {
+          "answer": "ca n't tell",
+          "question": "does he have leather jacket on ? "
+        },
+        {
+          "answer": "pants and helmet",
+          "question": "does he have helmet on ? "
+        },
+        {
+          "answer": "he looks like he \u2019 s ready to",
+          "question": "do you think he 's waiting for something ? "
+        },
+        {
+          "answer": "only 1 man",
+          "question": "do you see other people ? "
+        },
+        {
+          "answer": "too many to count",
+          "question": "how many pedestrians do you see ? "
+        },
+        {
+          "answer": "1 hat is not visible",
+          "question": "is he wearing helmet ? "
+        },
+        {
+          "answer": "brown and yellow",
+          "question": "can you see sky ? "
+        },
+        {
+          "answer": "0 that i can see",
+          "question": "does it appear warm out ? "
+        },
+        {
+          "answer": "not really",
+          "question": "anything else you can see in photo ? "
+        }
+      ],
+      "image_id": 131597,
+      "caption": "a man riding a motorcycle down a street"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "yes",
+          "question": "is man only person ? "
+        },
+        {
+          "answer": "ca n't tell it 's black and white photo",
+          "question": "how old is man ? "
+        },
+        {
+          "answer": "restaurant no hat",
+          "question": "is man wearing hat ? "
+        },
+        {
+          "answer": "i think black but its black and white picture",
+          "question": "what color is his shirt ? "
+        },
+        {
+          "answer": "i ca n't see his head",
+          "question": "is man wearing anything on his head ? "
+        },
+        {
+          "answer": "no",
+          "question": "is there any other people in picture ? "
+        },
+        {
+          "answer": "it is afternoon",
+          "question": "can you tell what time of day it is ? "
+        },
+        {
+          "answer": "ca n't tell",
+          "question": "is it sunny ? "
+        },
+        {
+          "answer": "brown",
+          "question": "what color is man 's hair ? "
+        },
+        {
+          "answer": "brown knit hat",
+          "question": "is he wearing hat ? "
+        }
+      ],
+      "image_id": 206876,
+      "caption": "a man is riding an elephant in the water"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "no way to tell",
+          "question": "how big is hot dog ? "
+        },
+        {
+          "answer": "no plate",
+          "question": "what color is plate ? "
+        },
+        {
+          "answer": "no way in home i think",
+          "question": "does this look like home or restaurant ? "
+        },
+        {
+          "answer": "yes it 's black table",
+          "question": "what color is table ? "
+        },
+        {
+          "answer": "yes",
+          "question": "is there more than 1 hot dog ? "
+        },
+        {
+          "answer": "daytime but i can only see part of person",
+          "question": "can you see any people ? "
+        },
+        {
+          "answer": "yes",
+          "question": "can you see ground ? "
+        },
+        {
+          "answer": "at bottom",
+          "question": "is there grass on ground ? "
+        },
+        {
+          "answer": "no stereo",
+          "question": "what color is motorcycle ? "
+        },
+        {
+          "answer": "no frosting",
+          "question": "what color is donut ? "
+        }
+      ],
+      "image_id": 82449,
+      "caption": "a hot dog on a bun on a plate"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "i ca n't see his hair",
+          "question": "what color hair does man have ? "
+        },
+        {
+          "answer": "looks like sweater but i ca n't tell what it is",
+          "question": "can you see toppings on hot dog ? "
+        },
+        {
+          "answer": "i ca n't see his head",
+          "question": "is man bald ? "
+        },
+        {
+          "answer": "he is only person i can see",
+          "question": "is man alone ? "
+        },
+        {
+          "answer": "white shirt",
+          "question": "what is man wearing ? "
+        },
+        {
+          "answer": "i can see 2 other people",
+          "question": "have any other people in picture ? "
+        },
+        {
+          "answer": "oh yes , it does",
+          "question": "does hot dog have any toppings on hot dog ? "
+        },
+        {
+          "answer": "it does",
+          "question": "do hot dogs have ketchup on them ? "
+        },
+        {
+          "answer": "no i do n't see any",
+          "question": "does hot dog have ketchup on it ? "
+        },
+        {
+          "answer": "not that i can see",
+          "question": "does it have mustard on it ? "
+        }
+      ],
+      "image_id": 131593,
+      "caption": "a man holding a hot dog in his hand"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "maybe 1 person",
+          "question": "is there more than 1 person ? "
+        },
+        {
+          "answer": "i ca n't see his clothes",
+          "question": "what is man wearing ? "
+        },
+        {
+          "answer": "it looks like he 's in his 20 's",
+          "question": "how old does man appear to be ? "
+        },
+        {
+          "answer": "he has black snowboard on back",
+          "question": "what color is his skateboard ? "
+        },
+        {
+          "answer": "yes , in distance",
+          "question": "do you see any trees ? "
+        },
+        {
+          "answer": "it is blue and white",
+          "question": "can you see sky ? "
+        },
+        {
+          "answer": "not that i can see",
+          "question": "is sky visible ? "
+        },
+        {
+          "answer": "he is in sky",
+          "question": "can you see any trees ? "
+        },
+        {
+          "answer": "formal rock",
+          "question": "anything else in picture ? "
+        },
+        {
+          "answer": "yes",
+          "question": "can you see ground ? "
+        }
+      ],
+      "image_id": 398385,
+      "caption": "a man flying through the air while riding a skateboard"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "just 1 giraffe",
+          "question": "are there any other animals ? "
+        },
+        {
+          "answer": "nope",
+          "question": "are there any people ? "
+        },
+        {
+          "answer": "0",
+          "question": "are there any other animals ? "
+        },
+        {
+          "answer": "yeah it 's wide open",
+          "question": "can you see ground ? "
+        },
+        {
+          "answer": "they are in enclosure but not sure",
+          "question": "does it look like zoo ? "
+        },
+        {
+          "answer": "brown",
+          "question": "what color is fence ? "
+        },
+        {
+          "answer": "not that i can see",
+          "question": "does elephant have any tusks ? "
+        },
+        {
+          "answer": "yeah",
+          "question": "does elephant look healthy ? "
+        },
+        {
+          "answer": "yeah",
+          "question": "does it look healthy ? "
+        },
+        {
+          "answer": "yes",
+          "question": "would you eat it ? "
+        }
+      ],
+      "image_id": 469279,
+      "caption": "an elephant standing next to a tree in a field"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "big part of 1",
+          "question": "are there any people in this picture ? "
+        },
+        {
+          "answer": "plate",
+          "question": "are there any animals ? "
+        },
+        {
+          "answer": "more like barn",
+          "question": "do you see any buildings ? "
+        },
+        {
+          "answer": "it is noon",
+          "question": "can you tell what time it is ? "
+        },
+        {
+          "answer": "not really",
+          "question": "can you see sky ? "
+        },
+        {
+          "answer": "man is outside , i ca n't tell",
+          "question": "what time of day is it ? "
+        },
+        {
+          "answer": "ca n't see sky",
+          "question": "can you see sky ? "
+        },
+        {
+          "answer": "hard to tell maybe not sure",
+          "question": "where is this picture taken ? "
+        },
+        {
+          "answer": "i do n't think so",
+          "question": "does photo have watermark ? "
+        },
+        {
+          "answer": "yellow UNK",
+          "question": "do you recognize this image ? "
+        }
+      ],
+      "image_id": 306524,
+      "caption": "a tall building with a clock on the top"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "partially",
+          "question": "can you see net ? "
+        },
+        {
+          "answer": "i ca n't tell",
+          "question": "does man have hat on ? "
+        },
+        {
+          "answer": "30",
+          "question": "about how old is man ? "
+        },
+        {
+          "answer": "1 does n't have hat on",
+          "question": "does man have hat ? "
+        },
+        {
+          "answer": "no , just 1 player",
+          "question": "can you see racket ? "
+        },
+        {
+          "answer": "blue and white",
+          "question": "what color is racket ? "
+        },
+        {
+          "answer": "0 that i can see",
+          "question": "are there people watching ? "
+        },
+        {
+          "answer": "reddish brown",
+          "question": "what color is court ? "
+        },
+        {
+          "answer": "yes",
+          "question": "has man hit ball ? "
+        },
+        {
+          "answer": "nope",
+          "question": "are there any other people in picture ? "
+        }
+      ],
+      "image_id": 343867,
+      "caption": "a man is playing tennis on a tennis court"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "there is no man",
+          "question": "how old is man ? "
+        },
+        {
+          "answer": "shirt does n't have no way to tell",
+          "question": "does he have short hair ? "
+        },
+        {
+          "answer": "there is blue and white striped umbrella",
+          "question": "what color is couch ? "
+        },
+        {
+          "answer": "looks like he 's in parking lot",
+          "question": "where is he ? "
+        },
+        {
+          "answer": "yeah , they are black",
+          "question": "can you see his shoes ? "
+        },
+        {
+          "answer": "not sure , it 's black and white photo",
+          "question": "what color is his shirt ? "
+        },
+        {
+          "answer": "little girl in background",
+          "question": "any other people ? "
+        },
+        {
+          "answer": "i can not see his face",
+          "question": "does he look happy ? "
+        },
+        {
+          "answer": "i can only see back of his head",
+          "question": "how is he dressed ? "
+        },
+        {
+          "answer": "if i see chair in background , but i ca n't tell what it is",
+          "question": "do you see any furniture ? "
+        }
+      ],
+      "image_id": 301061,
+      "caption": "a man sitting on a bench with a laptop"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "no people at all",
+          "question": "how many people ? "
+        },
+        {
+          "answer": "no boat in picture is in color",
+          "question": "what color is boat ? "
+        },
+        {
+          "answer": "looks like 5 or 6 or so",
+          "question": "how many boats ? "
+        },
+        {
+          "answer": "yes , it 's very light green",
+          "question": "what color is boat ? "
+        },
+        {
+          "answer": "i ca n't see any lights",
+          "question": "is there sail ? "
+        },
+        {
+          "answer": "no 0 of them are dressed",
+          "question": "are they wearing life jackets ? "
+        },
+        {
+          "answer": "yes , it is sunny",
+          "question": "how is weather ? "
+        },
+        {
+          "answer": "not that i can see",
+          "question": "do they have oars ? "
+        },
+        {
+          "answer": "i can not see sky",
+          "question": "are there any clouds in sky ? "
+        },
+        {
+          "answer": "no i do n't see any",
+          "question": "do you see any buildings ? "
+        }
+      ],
+      "image_id": 431257,
+      "caption": "a group of people standing on top of a boat"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "yes , UNK",
+          "question": "what time is it on clock ? "
+        },
+        {
+          "answer": "shirts is white",
+          "question": "what color is building ? "
+        },
+        {
+          "answer": "picture is too dark to tell if there are any people",
+          "question": "do you see any people ? "
+        },
+        {
+          "answer": "no trees",
+          "question": "are there any trees ? "
+        },
+        {
+          "answer": "yes there are 2 cars visible",
+          "question": "do you see any cars ? "
+        },
+        {
+          "answer": "it looks like it , but i ca n't tell if it 's park",
+          "question": "are they parked on street ? "
+        },
+        {
+          "answer": "lights are all on trees",
+          "question": "do you see any trees ? "
+        },
+        {
+          "answer": "yes it is",
+          "question": "is it sunny day ? "
+        },
+        {
+          "answer": "not that i can see",
+          "question": "are there stained glass windows ? "
+        },
+        {
+          "answer": "yes i can",
+          "question": "can you see sky ? "
+        }
+      ],
+      "image_id": 501116,
+      "caption": "a large building with a clock on the front of it"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "i do n't think so",
+          "question": "is tv flat screen ? "
+        },
+        {
+          "answer": "nobody",
+          "question": "are there people in living room ? "
+        },
+        {
+          "answer": "no i do n't think so",
+          "question": "is tv flat screen ? "
+        },
+        {
+          "answer": "yes",
+          "question": "does it look like living room ? "
+        },
+        {
+          "answer": "it looks like there may be",
+          "question": "is there couch ? "
+        },
+        {
+          "answer": "nope",
+          "question": "can you see any windows ? "
+        },
+        {
+          "answer": "yes it does",
+          "question": "does it look like living room ? "
+        },
+        {
+          "answer": "dark blue",
+          "question": "what color are couches ? "
+        },
+        {
+          "answer": "there are chairs in hallway to right of them",
+          "question": "are there chairs ? "
+        },
+        {
+          "answer": "not that i can see",
+          "question": "are there any lamps ? "
+        }
+      ],
+      "image_id": 493652,
+      "caption": "a living room filled with furniture and a flat screen tv"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "nope",
+          "question": "are there people around ? "
+        },
+        {
+          "answer": "looks to be brown",
+          "question": "what color is plate ? "
+        },
+        {
+          "answer": "i do n't think so",
+          "question": "is it fried ? "
+        },
+        {
+          "answer": "ca n't tell it has tablecloth on it",
+          "question": "what color is table ? "
+        },
+        {
+          "answer": "not sure , it 's dark color",
+          "question": "what color is plate ? "
+        },
+        {
+          "answer": "yes i see table",
+          "question": "can you see table ? "
+        },
+        {
+          "answer": "wood table and some soda , some papers , napkins , and napkins",
+          "question": "anything on table ? "
+        },
+        {
+          "answer": "it 's light wood color",
+          "question": "what color is table ? "
+        },
+        {
+          "answer": "i can and they are off in distance",
+          "question": "can you see walls ? "
+        },
+        {
+          "answer": "i can only see part of it , but i think so",
+          "question": "is table large ? "
+        }
+      ],
+      "image_id": 377595,
+      "caption": "a table with a plate of food on it"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "i can see about 10 people",
+          "question": "about how many people are there ? "
+        },
+        {
+          "answer": "i can see 4",
+          "question": "how many kites are there ? "
+        },
+        {
+          "answer": "nope",
+          "question": "can you see any cars ? "
+        },
+        {
+          "answer": "nope",
+          "question": "do you see any children ? "
+        },
+        {
+          "answer": "small portion of it yes",
+          "question": "can you see sky ? "
+        },
+        {
+          "answer": "not at all",
+          "question": "can you see trees ? "
+        },
+        {
+          "answer": "0",
+          "question": "do you see cars ? "
+        },
+        {
+          "answer": "little piece of sky is visible",
+          "question": "can you see sky ? "
+        },
+        {
+          "answer": "it does look warm",
+          "question": "does it appear to be warm ? "
+        },
+        {
+          "answer": "there are lot of trees in background",
+          "question": "are there lot of trees ? "
+        }
+      ],
+      "image_id": 452899,
+      "caption": "a group of people flying kites in a field"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "12:05",
+          "question": "does this look like resort ? "
+        },
+        {
+          "answer": "3 men , 1 man is wearing pants and shirt and other is wearing jeans",
+          "question": "what are they wearing ? "
+        },
+        {
+          "answer": "yes , it 's sunny",
+          "question": "how is weather ? "
+        },
+        {
+          "answer": "several yes",
+          "question": "does it look like it 's going to rain ? "
+        },
+        {
+          "answer": "there are trees in background",
+          "question": "can you see any trees ? "
+        },
+        {
+          "answer": "it 's hard to tell , but i 'd guess there are many",
+          "question": "how many buildings can you see ? "
+        },
+        {
+          "answer": "many people in background",
+          "question": "what else do you see ? "
+        },
+        {
+          "answer": "looks like pine trees",
+          "question": "do trees have leaves on them ? "
+        },
+        {
+          "answer": "there are no people around",
+          "question": "is anyone wearing hat ? "
+        },
+        {
+          "answer": "do n't know their back is to me",
+          "question": "can you see their faces ? "
+        }
+      ],
+      "image_id": 420339,
+      "caption": "a group of people standing in the snow"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "looks like it",
+          "question": "shrimp is on plate ? "
+        },
+        {
+          "answer": "not really",
+          "question": "does it look good ? "
+        },
+        {
+          "answer": "maybe ceramic",
+          "question": "why is bun placed on ? "
+        },
+        {
+          "answer": "looks like 1 cut in half",
+          "question": "how many potatoes are there ? "
+        },
+        {
+          "answer": "think so",
+          "question": "is plate sitting on table ? "
+        },
+        {
+          "answer": "perhaps it 's hard to tell but i think so",
+          "question": "is table made of wood ? "
+        },
+        {
+          "answer": "looks like wood",
+          "question": "what is table made out of ? "
+        },
+        {
+          "answer": "medium table",
+          "question": "anything else on table ? "
+        },
+        {
+          "answer": "tablecloth",
+          "question": "can you see tablecloth ? "
+        },
+        {
+          "answer": "not that i can see",
+          "question": "any people around ? "
+        }
+      ],
+      "image_id": 420330,
+      "caption": "a plate of food with broccoli and meat"
+    },
+    {
+      "dialog": [
+        {
+          "answer": "0",
+          "question": "can you see any people ? "
+        },
+        {
+          "answer": "plate looks like bedroom",
+          "question": "can you tell what room this is in ? "
+        },
+        {
+          "answer": "0 that i can see",
+          "question": "does cat have collar on ? "
+        },
+        {
+          "answer": "white not sure",
+          "question": "are there any other pets ? "
+        },
+        {
+          "answer": "its black and white picture , ca n't tell",
+          "question": "what color is cat ? "
+        },
+        {
+          "answer": "in his mouth is open , so i ca n't tell",
+          "question": "does cat look scared ? "
+        },
+        {
+          "answer": "too dark to tell",
+          "question": "wood or asphalt ? "
+        },
+        {
+          "answer": "nothing hold hand",
+          "question": "how big is bag ? "
+        },
+        {
+          "answer": "little not that i can see",
+          "question": "does it have collar on ? "
+        },
+        {
+          "answer": "i see lot of clothes cat is sitting on floor , there is also something on wall behind her ,",
+          "question": "anything else of interest in picture ? "
+        }
+      ],
+      "image_id": 74013,
+      "caption": "a cat sitting on top of a suitcase"
+    }
+  ],
+  "opts": {
+    "qbot": "checkpoints\\qbot_ep_4_1.vd",
+    "abot": "checkpoints\\abot_ep_4_1.vd",
+    "backend": "cudnn",
+    "beamLen": 20,
+    "beamSize": 5,
+    "decoder": "gen",
+    "encoder": "hre-ques-lateim-hist",
+    "gpuid": 0,
+    "imgNorm": 1,
+    "inputImg": "data/visdial/data_img.h5",
+    "inputJson": "data/visdial/chat_processed_params.json",
+    "inputQues": "data\\visdial\\chat_processed_data_gencaps.h5",
+    "loadPath": "checkpoints/",
+    "maxThreads": 1,
+    "resultPath": "dialog_output/results",
+    "sampleWords": 0,
+    "temperature": 1,
+    "useHistory": true,
+    "useIm": true
+  }
+}

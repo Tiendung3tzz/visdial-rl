@@ -84,16 +84,17 @@ def rankABot(aBot, dataset, split, scoringFunction, exampleLimit=None):
                 for key, v in batch.items()
             }
 
-        image = Variable(batch['img_feat'], volatile=True)
-        caption = Variable(batch['cap'], volatile=True)
-        captionLens = Variable(batch['cap_len'], volatile=True)
-        questions = Variable(batch['ques'], volatile=True)
-        quesLens = Variable(batch['ques_len'], volatile=True)
-        answers = Variable(batch['ans'], volatile=True)
-        ansLens = Variable(batch['ans_len'], volatile=True)
-        options = Variable(batch['opt'], volatile=True)
-        optionLens = Variable(batch['opt_len'], volatile=True)
-        correctOptionInds = Variable(batch['ans_id'], volatile=True)
+        with torch.no_grad():
+              image = batch['img_feat']
+              caption = batch['cap']
+              captionLens = batch['cap_len']
+              questions = batch['ques']
+              quesLens = batch['ques_len']
+              answers = batch['ans']
+              ansLens = batch['ans_len']
+              options = batch['opt']
+              optionLens = batch['opt_len']
+              correctOptionInds = batch['ans_id']
         aBot.reset()
         aBot.observe(-1, image=image, caption=caption, captionLens=captionLens)
         for round in range(numRounds):

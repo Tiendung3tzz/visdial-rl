@@ -55,7 +55,7 @@ def saveModel(model, optimizer, saveFile, params):
     }, saveFile)
 
 
-def loadModel(params, agent='abot', overwrite=False):
+def loadModel(params, agent='abot', overwrite=False,map_location=None):
     if overwrite is False:
         params = params.copy()
     loadedParams = {}
@@ -70,7 +70,7 @@ def loadModel(params, agent='abot', overwrite=False):
         'dropout'
     ]
     modelOptions = encoderOptions + decoderOptions
-
+    
     mdict = None
     gpuFlag = params['useGPU']
     continueFlag = params['continue']
@@ -88,8 +88,7 @@ def loadModel(params, agent='abot', overwrite=False):
         if gpuFlag:
             mdict = torch.load(params[startArg])
         else:
-            mdict = torch.load(params[startArg],
-                map_location=lambda storage, location: storage)
+            mdict = torch.load(params[startArg], map_location=map_location)
 
         # Model options is a union of standard model options defined
         # above and parameters loaded from checkpoint

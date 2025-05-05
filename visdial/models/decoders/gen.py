@@ -108,7 +108,10 @@ class Decoder(nn.Module):
 
         # seq = th.LongTensor(batchSize, maxLen + 1)
         # seq = torch.tensor((batchSize, maxLen + 1), dtype=torch.long, device='cuda')
+        # seq = torch.zeros((batchSize, maxLen + 1), dtype=torch.long, device='cuda')
         seq = torch.zeros((batchSize, maxLen + 1), dtype=torch.long, device='cuda')
+
+        
 
         seq.fill_(self.endToken)
         seq[:, 0] = self.startToken

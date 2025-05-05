@@ -1,82 +1,60 @@
-import os.path as pth
-import json
-import numpy as np
-import visdom
+import matplotlib.pyplot as plt
+import os
+from collections import defaultdict
 
-
-class VisdomVisualize():
-    def __init__(self,
-                 env_name='main',
-                 server="http://127.0.0.1",
-                 port=8893,
-                 enable=True):
+class MatplotlibVisualize():
+    def __init__(self, enable=True):
         '''
-            Initialize a visdom server on server:port
+            Initialize visualization using matplotlib.
         '''
-        print("Initializing visdom env [%s]" % env_name)
         self.is_enabled = enable
-        if self.is_enabled:
-            self.viz = visdom.Visdom(
-                port=port,
-                env=env_name,
-                server=server,
-            )
-        else:
-            self.viz = None
-        self.wins = {}
+        self.data = defaultdict(list)  # Store all points for each key-line pair
 
     def linePlot(self, x, y, key, line_name, xlabel="Iterations"):
         '''
-            Add or update a line plot on the visdom server self.viz
-            Argumens:
+            Simulate Visdom's line plotting using matplotlib.
+            Args:
                 x : Scalar -> X-coordinate on plot
                 y : Scalar -> Value at x
                 key : Name of plot/graph
                 line_name : Name of line within plot/graph
-                xlabel : Label for x-axis (default: # Iterations)
-
-            Plots and lines are created if they don't exist, otherwise
-            they are updated.
+                xlabel : Label for x-axis
         '''
-        key = str(key)
-        if self.is_enabled:
-            if key in self.wins.keys():
-                self.viz.line(
-                    X = np.array([x]),
-                    Y = np.array([y]),
-                    win = self.wins[key],
-                    update = 'append',
-                    name = line_name,
-                    opts = dict(showlegend=True),
-                )
-            else:
-                self.wins[key] = self.viz.line(
-                    X = np.array([x]),
-                    Y = np.array([y]),
-                    win = key,
-                    name = line_name,
-                    opts = {
-                        'xlabel': xlabel,
-                        'ylabel': key,
-                        'title': key,
-                        'showlegend': True,
-                        # 'legend': [line_name],
-                    }
-                )
+        if not self.is_enabled:
+            print(123)
+            return
+
+        self.data[(key, line_name)].append((x, y))
+        plt.figure(key)
+        plt.clf()
+        for (k, ln), points in self.data.items():
+            if k == key:
+                xs, ys = zip(*points)
+                plt.plot(xs, ys, label=ln)
+        plt.xlabel(xlabel)
+        plt.ylabel(key)
+        plt.title(key)
+        plt.legend()
+        plt.grid(True)
+        os.makedirs("plots", exist_ok=True)
+        plt.savefig(f"plots/{key}.png")
+        plt.close()
 
     def showText(self, text, key):
         '''
-        Created a named text window or updates an existing one with
-        the name == key
+            Simulate text display by writing to a text file.
         '''
-        key = str(key)
         if self.is_enabled:
-            win = self.wins[key] if key in self.wins else None
-            self.wins[key] = self.viz.text(text, win=win)
+            os.makedirs("logs", exist_ok=True)
+            with open(f"logs/{key}.txt", "w") as f:
+                f.write(text)
 
     def addText(self, text):
         '''
-        Adds an unnamed text window without keeping track of win id
+            Append unnamed text to a log file.
         '''
         if self.is_enabled:
-            self.viz.text(text)
+            os.makedirs("logs", exist_ok=True)
+            with open("logs/unnamed.txt", "a") as f:
+                f.write(text + "\n")
+

@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
     # Load A-Bot
     if params['startFrom']:
-        aBot, loadedParams, _ = utils.loadModel(params, 'abot', overwrite=True)
+        aBot, loadedParams, _ = utils.loadModel(params, 'abot', overwrite=True,map_location=torch.device('cpu'))
         assert aBot.encoder.vocabSize == dataset.vocabSize, "Vocab size mismatch!"
         for key in loadedParams:
             params[key] = loadedParams[key]
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
     # Load Q-Bot
     if params['qstartFrom']:
-        qBot, loadedParams, _ = utils.loadModel(params, 'qbot', overwrite=True)
+        qBot, loadedParams, _ = utils.loadModel(params, 'qbot', overwrite=True,map_location=torch.device('cpu'))
         assert qBot.encoder.vocabSize == params['vocabSize'], "Vocab size mismatch!"
         for key in loadedParams:
             params[key] = loadedParams[key]
@@ -116,7 +116,10 @@ if __name__ == '__main__':
         print("Performing ABotRank evaluation")
         rankMetrics = rankABot(
             aBot, dataset, split, scoringFunction=utils.maskedNll)
+        print("Performing ----------------------------")
+        
         for metric, value in rankMetrics.items():
+            print("Performing vis")
             plotName = splitName + ' - ABot Rank'
             viz.linePlot(iterId, value, plotName, metric, xlabel='Iterations')
 
