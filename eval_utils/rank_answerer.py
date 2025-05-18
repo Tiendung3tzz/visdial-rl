@@ -50,9 +50,9 @@ def rankABot(aBot, dataset, split, scoringFunction, exampleLimit=None):
     batchSize = dataset.batchSize
     numRounds = dataset.numRounds
     if exampleLimit is None:
-        numExamples = dataset.numDataPoints[split]
+        numExamples = dataset.numDataPoints[split] // 4
     else:
-        numExamples = exampleLimit
+        numExamples = exampleLimit //4
 
     numBatches = (numExamples - 1) // batchSize + 1
 
