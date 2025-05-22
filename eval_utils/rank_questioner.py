@@ -306,7 +306,7 @@ def rankQABots(qBot, aBot, dataset, split, exampleLimit=None, beamSize=1):
             ranks.append(rank)
         ranks = np.array(ranks)
         rankMetrics = metrics.computeMetrics(Variable(torch.from_numpy(ranks)))
-        assert len(ranks) == len(dataset)
+        assert len(ranks) == len(numExamples)
         poolSize = len(dataset)
         meanRank = ranks.mean()
         se = ranks.std() / np.sqrt(poolSize)
