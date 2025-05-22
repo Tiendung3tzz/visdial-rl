@@ -106,6 +106,9 @@ def rankQBot(qBot, dataset, split, exampleLimit=None, verbose=0):
             featLossAll[round + 1].append(torch.mean(featLoss))
             # Keeping predictions
             roundwiseFeaturePreds[round + 1].append(predFeatures)
+            # In ra dự đoán của Q-BOT tại vòng hiện tại (sau khi quan sát Q&A của vòng đó)
+            print(f"Round {round + 1} - Predicted Features (Q-BOT): {predFeatures[0][:5]}")
+
         gtImgFeatures.append(gtFeatures)
 
         end_t = timer()
