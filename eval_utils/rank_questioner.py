@@ -38,9 +38,9 @@ def rankQBot(qBot, dataset, split, exampleLimit=None, verbose=0):
     batchSize = dataset.batchSize
     numRounds = dataset.numRounds
     if exampleLimit is None:
-        numExamples = dataset.numDataPoints[split]
+        numExamples = dataset.numDataPoints[split]//4
     else:
-        numExamples = exampleLimit
+        numExamples = exampleLimit//4
     numBatches = (numExamples - 1) // batchSize + 1
     original_split = dataset.split
     dataset.split = split
