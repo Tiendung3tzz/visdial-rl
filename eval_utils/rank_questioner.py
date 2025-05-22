@@ -107,7 +107,7 @@ def rankQBot(qBot, dataset, split, exampleLimit=None, verbose=0):
             # Keeping predictions
             roundwiseFeaturePreds[round + 1].append(predFeatures)
             # In ra dự đoán của Q-BOT tại vòng hiện tại (sau khi quan sát Q&A của vòng đó)
-            print(f"Round {round + 1} - Predicted Features (Q-BOT): {predFeatures[0][:5]}")
+            # print(f"Round {round + 1} - Predicted Features (Q-BOT): {predFeatures[0][:5]}")
 
         gtImgFeatures.append(gtFeatures)
 
@@ -121,7 +121,7 @@ def rankQBot(qBot, dataset, split, exampleLimit=None, verbose=0):
 
     gtFeatures = torch.cat(gtImgFeatures, 0).data.cpu().numpy()
     rankMetricsRounds = []
-    poolSize = len(dataset)
+    poolSize = len(dataset)//4
 
     # Keeping tracking of feature regression loss and CE logprobs
     # logProbsAll = [torch.cat(lprobs, 0).mean() for lprobs in logProbsAll]
