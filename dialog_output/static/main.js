@@ -15,15 +15,15 @@
       };
   }
 
-  $.get('results/results.json', function(data) {
+  $.get('results/final.json', function(data) {
       var image_root = "http://images.cocodataset.org/val2014/";
       
       if (data.opts.sampleWords == 0) {
           $('#heading').html('Encoder: ' + data.opts.encoder
                               + ', Decoder: ' + data.opts.decoder
                               + ', Beam size: ' + data.opts.beamSize
-                              + '<br>' + 'Q-Bot: checkpoints/abot_rl.vd' //+ data.opts.qbot
-                              + '<br>' + 'A-Bot: checkpoints/qbot_rl.vd'); //+ data.opts.abot);
+                              + '<br>' + 'Q-Bot: checkpoints/abot_sl_60.vd' //+ data.opts.qbot
+                              + '<br>' + 'A-Bot: checkpoints/qbot_sl_60.vd'); //+ data.opts.abot);
       } else {
           $('#heading').html('Encoder: ' + data.opts.encoder
               + ', Decoder: ' + data.opts.decoder + ', Temperature: ' + data.opts.temperature);
@@ -44,7 +44,7 @@
           html += "<p class='col-xs-12' style='font-weight:400'><span> Caption: " + data.data[i].caption + "</span></p>";
           html += "<div class='col-xs-12'><ol style='margin-top:10px;'>";
 
-          for (var j = 0; j < 10; j++) {
+          for (var j = 0; j < 5; j++) {
               html += "<li style='font-weight:400;'><span>" + data.data[i].dialog[j].question + "</span><span>" + data.data[i].dialog[j].answer + "</span></li>";
           }
 

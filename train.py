@@ -18,7 +18,7 @@ from torch.utils.data import DataLoader
 from eval_utils.rank_answerer import rankABot
 from eval_utils.rank_questioner import rankQBot
 from utils import utilities as utils
-from utils.visualize import VisdomVisualize
+# from utils.visualize import VisdomVisualize
 import re
 import multiprocessing
 #---------------------------------------------------------------------------------------
@@ -99,13 +99,13 @@ if __name__ == '__main__':
         pin_memory=False)
 
     # Initializing visdom environment for plotting data
-    viz = VisdomVisualize(
-        enable=bool(params['enableVisdom']),
-        env_name=params['visdomEnv'],
-        server=params['visdomServer'],
-        port=params['visdomServerPort'])
-    pprint.pprint(params)
-    viz.addText(pprint.pformat(params, indent=4))
+    # viz = VisdomVisualize(
+    #     enable=bool(params['enableVisdom']),
+    #     env_name=params['visdomEnv'],
+    #     server=params['visdomServer'],
+    #     port=params['visdomServerPort'])
+    # pprint.pprint(params)
+    # viz.addText(pprint.pformat(params, indent=4))
 
     # Setup optimizer
     if params['continue']:
@@ -341,8 +341,8 @@ if __name__ == '__main__':
             for gId, group in enumerate(optimizer.param_groups):
                 optimizer.param_groups[gId]['lr'] *= params['lrDecayRate']
             lRate *= params['lrDecayRate']
-            if iterId % 10 == 0:  # Plot learning rate till saturation
-                viz.linePlot(iterId, lRate, 'learning rate', 'learning rate')
+            # if iterId % 10 == 0:  # Plot learning rate till saturation
+                # viz.linePlot(iterId, lRate, 'learning rate', 'learning rate')
 
         # RL Annealing: Every epoch after the first, decrease rlRound
         if iterId % numIterPerEpoch == 0 and iterId > 0:
@@ -367,17 +367,17 @@ if __name__ == '__main__':
             print(printFormat % tuple(printInfo))
 
             # Update line plots
-            if isinstance(aBotLoss, Variable):
-                viz.linePlot(iterId, aBotLoss.item(), 'aBotLoss', 'train CE')
-            if isinstance(qBotLoss, Variable):
-                viz.linePlot(iterId, qBotLoss.item(), 'qBotLoss', 'train CE')
-            if isinstance(rlLoss, Variable):
-                viz.linePlot(iterId, rlLoss.item(), 'rlLoss', 'train')
-            if isinstance(featLoss, Variable):
-                viz.linePlot(iterId, featLoss.item(), 'featLoss',
-                            'train FeatureRegressionLoss')
-            viz.linePlot(iterId, loss.item(), 'loss', 'train loss')
-            viz.linePlot(iterId, runningLoss, 'loss', 'running train loss')
+            # if isinstance(aBotLoss, Variable):
+            #     viz.linePlot(iterId, aBotLoss.item(), 'aBotLoss', 'train CE')
+            # if isinstance(qBotLoss, Variable):
+            #     viz.linePlot(iterId, qBotLoss.item(), 'qBotLoss', 'train CE')
+            # if isinstance(rlLoss, Variable):
+            #     viz.linePlot(iterId, rlLoss.item(), 'rlLoss', 'train')
+            # if isinstance(featLoss, Variable):
+            #     viz.linePlot(iterId, featLoss.item(), 'featLoss',
+            #                 'train FeatureRegressionLoss')
+            # viz.linePlot(iterId, loss.item(), 'loss', 'train loss')
+            # viz.linePlot(iterId, runningLoss, 'loss', 'running train loss')
 
         # Evaluate every epoch
         if iterId % (numIterPerEpoch // 1) == 0:
@@ -396,7 +396,7 @@ if __name__ == '__main__':
                 print("Currently on visdom env [%s]" % (params['visdomEnv']))
 
             # Mapping iteration count to epoch count
-            viz.linePlot(iterId, epochId, 'iter x epoch', 'epochs')
+            # viz.linePlot(iterId, epochId, 'iter x epoch', 'epochs')
 
             print('Performing validation...')
             if aBot and 'ques' in batch:
@@ -410,14 +410,14 @@ if __name__ == '__main__':
                     scoringFunction=utils.maskedNll,
                     exampleLimit=25 * params['batchSize'])
 
-                for metric, value in rankMetrics.items():
-                    viz.linePlot(
-                        epochId, value, 'val - aBot', metric, xlabel='Epochs')
+                # for metric, value in rankMetrics.items():
+                #     # viz.linePlot(
+                #         epochId, value, 'val - aBot', metric, xlabel='Epochs')
 
                 if 'logProbsMean' in rankMetrics:
                     logProbsMean = params['CELossCoeff'] * rankMetrics[
                         'logProbsMean']
-                    viz.linePlot(iterId,logProbsMean, 'logProbsMean', 'val - aBot', xlabel='Iterations')
+                    # viz.linePlot(iterId,logProbsMean, 'logProbsMean', 'val - aBot', xlabel='Iterations')
 
             if qBot and 'ques' in batch:
                 print("qBot Validation:")
@@ -430,19 +430,19 @@ if __name__ == '__main__':
                 rankMetrics = rankQBot(qBot, dataset, 'val', exampleLimit=25 * params['batchSize'])
 
                 # Ensure that rankMetrics is a dictionary before accessing its items
-                if isinstance(rankMetrics, dict):
-                    for metric, value in rankMetrics.items():
-                        viz.linePlot(
-                            epochId, value, 'val - qBot', metric, xlabel='Epochs')
-                        pass
-                else:
+                # if isinstance(rankMetrics, dict):
+                #     for metric, value in rankMetrics.items():
+                #         # viz.linePlot(
+                #         #     epochId, value, 'val - qBot', metric, xlabel='Epochs')
+                #         # pass
+                # else:
                     # Handle the case where rankMetrics is not a dictionary
-                    print("rankMetrics is not a dictionary")
+                    # print("rankMetrics is not a dictionary")
 
                 if 'logProbsMean' in rankMetrics:
                     logProbsMean = params['CELossCoeff'] * rankMetrics[
                         'logProbsMean']
-                    viz.linePlot(iterId, logProbsMean, 'logProbsMean', 'val - qBot', xlabel='Iterations')
+                    # viz.linePlot(iterId, logProbsMean, 'logProbsMean', 'val - qBot', xlabel='Iterations')
 
             # Resetting to train mode
             if aBot:
