@@ -467,7 +467,7 @@ if __name__ == '__main__':
 
                 saveFile = saveFile[:12] + 'checkpoints_' + saveFile[12:]
                 print('Saving model: ' + saveFile)
-
+                print(saveFile[:54])
                 path_dir = saveFile[:54]
                 os.makedirs(os.path.dirname(path_dir), exist_ok=True)
 
