@@ -254,15 +254,16 @@ def rankQABots(qBot, aBot, dataset, split, exampleLimit=None, beamSize=1):
         else:
             batch = {key: v.contiguous() for key, v in batch.items() \
                                             if hasattr(v, 'cuda')}
-
-        caption = Variable(batch['cap'], volatile=True)
-        captionLens = Variable(batch['cap_len'], volatile=True)
-        gtQuestions = Variable(batch['ques'], volatile=True)
-        gtQuesLens = Variable(batch['ques_len'], volatile=True)
-        answers = Variable(batch['ans'], volatile=True)
-        ansLens = Variable(batch['ans_len'], volatile=True)
-        gtFeatures = Variable(batch['img_feat'], volatile=True)
-        image = Variable(batch['img_feat'], volatile=True)
+        
+        with torch.no_grad():
+            caption = Variable(batch['cap'])
+            captionLens = Variable(batch['cap_len'])
+            gtQuestions = Variable(batch['ques'])
+            gtQuesLens = Variable(batch['ques_len'])
+            answers = Variable(batch['ans'])
+            ansLens = Variable(batch['ans_len'])
+            gtFeatures = Variable(batch['img_feat'])
+            image = Variable(batch['img_feat'])
 
         aBot.eval(), aBot.reset()
         aBot.observe(-1, image=image, caption=caption, captionLens=captionLens)
