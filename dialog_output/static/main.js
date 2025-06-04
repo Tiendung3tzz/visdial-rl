@@ -15,7 +15,7 @@
       };
   }
 
-  $.get('results/final.json', function(data) {
+  $.get('results/finalep6.json', function(data) {
       var image_root = "http://images.cocodataset.org/val2014/";
       
       if (data.opts.sampleWords == 0) {
