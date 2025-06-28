@@ -14,3 +14,6 @@ gdown --id 1Nksj0nv2pRaNGcu7hmRnn9uw_GGpuCSl -O qbot_ep_6.vd
 
 gdown --id 1VNdsqCmop-0tGIA_tc9G8jELWv_r8vzy -O abot_rl_ep_2.vd
 gdown --id 18Jgc78ojMF7JI2fNFjpSARnim4b1KZrr -O qbot_rl_ep_2.vd
+
+gdown --id 12Kz-OjIJD9UI-gcbgQcXuV5HnQ3gmY46 -O abot_sl_ep20.vd
+gdown --id 1cVZmzRoKiGH2u_meIGxBc_ZA4707Ivkh -O qbot_sl_ep20.vd
